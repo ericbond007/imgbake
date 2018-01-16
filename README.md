@@ -1,6 +1,7 @@
 # imgbake
 
 Example <picture> code
+<code>
 <picture>
  <source
    media="(min-width: 900px)"
@@ -21,4 +22,4 @@ Example <picture> code
    type="image/jpeg"
    alt="The Fishin Shedd" />
 </picture>
-
+</code>
