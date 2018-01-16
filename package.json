@@ -1,0 +1,15 @@
+{
+  "name": "imgbake",
+  "version": "1.0.0",
+  "description": "takes a directory of images and transforms into responsive, pixel ready web images",
+  "main": "index.js",
+  "repository": "https://github.com/ericbond007/imgbake",
+  "author": "Eric Bond",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cwebp": "^2.1.1",
+    "grunt-responsive-images": "^1.10.1"
+  }
+}
