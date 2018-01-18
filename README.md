@@ -18,7 +18,7 @@ Example <picture> code
    srcset="img/sheddFrontPano-sm_1x.jpg 600w,
    img/sheddFrontPano-md_1x.jpg 900w,
    img/sheddFrontPano-lg_1x.jpg 1440w"
-   src="image_lg_1x.jpg"
+   src="image-lg_1x.jpg"
    type="image/jpeg"
    alt="The Fishin Shedd" />
 </picture>
