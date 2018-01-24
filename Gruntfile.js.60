@@ -5,12 +5,12 @@ module.exports = function(grunt) {
         options: {
           engine: "gm",
           sizes: [
-            { name: "sm", suffix: "_1x", quality: 100, width: 600 },
-            { name: "sm", suffix: "_2x", quality: 100, width: 1200 },
-            { name: "md", suffix: "_1x", quality: 100, width: 900 },
-            { name: "md", suffix: "_2x", quality: 100, width: 1800 },
-            { name: "lg", suffix: "_1x", quality: 100, width: 1920 },
-            { name: "lg", suffix: "_2x", quality: 100, width: 2880 }
+            { name: "sm", suffix: "_1x", quality: 60, width: 600 },
+            { name: "sm", suffix: "_2x", quality: 60, width: 1200 },
+            { name: "md", suffix: "_1x", quality: 60, width: 900 },
+            { name: "md", suffix: "_2x", quality: 60, width: 1800 },
+            { name: "lg", suffix: "_1x", quality: 60, width: 1920 },
+            { name: "lg", suffix: "_2x", quality: 60, width: 2880 }
           ]
         },
         files: [
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
 	cwebp: {
 		dynamic: {
 			options: {
-				q: 100
+				q: 60
 			},
 			files: [
 				{
